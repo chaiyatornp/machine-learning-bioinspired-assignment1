@@ -9,8 +9,8 @@ Fix values for our assignments:
 2. Number of problems: 2000
 3. ϵ for ϵ-greedy action: 0, 0.1 and 0.01
 
-Given $Q_n$ and the $n$th reward, $R_n$, the new average of all n rewards can be computed by
+Given $Q_n$ and the $n$ th reward, $R_n$, the new average of all n rewards can be computed by
 
-\[ 
-    Q_{n+1} = Q_n + \frac{1}{n}[R_n - Q_n]
-\]
+$$
+    Q_{n+1} = Q_n + \frac{1}{n} [R_n - Q_n]
+$$
